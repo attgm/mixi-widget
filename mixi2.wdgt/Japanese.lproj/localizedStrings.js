@@ -1,0 +1,7 @@
+var localizedStrings = {
+	notify:'新着情報',	diary:'マイミク最新日記',	comment:'日記コメント記入履歴',	listcomment:'最新コメント',	community:'コミュニティ最新書込み',	footprint:'あしあと',
+	myfootprint:'自分のあしあと',	autorenew:'自動更新間隔',	message:'メッセージ',
+	album:'最新アルバム',
+	review:'最新レビュー',
+	music:'最新ミュージック',
+	voice:'ボイス',	0:'自動更新しない',	1:'1分',	5:'5分',	10:'10分',	30:'30分',	60:'1時間',	httpslabel:'httpsを用いてログインする'};

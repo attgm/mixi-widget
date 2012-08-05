@@ -1,0 +1,7 @@
+var localizedStrings = {
+	notify:'Notify',	diary:'Diaries',	comment:'My Comments',	listcomment:'Comments',	community:'Communities',	footprint:'Footprints',
+	myfootprint:'My Footprints',	autorenew:'Auto Renew',	message:'Message',
+	album:'Photo Album',
+	review:'Review',
+	music:'Music',
+	voice:'Voice',	0:'none',	1:'1 min',	5:'5 min',	10:'10 min',	30:'30 min',	60:'1 hour',	httpslabel:'Login via https'};

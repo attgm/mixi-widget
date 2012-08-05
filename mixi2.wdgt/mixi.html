@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html cmls="http://www.w3.org/1999/xhtml">
+<style type="text/css">@import "mixi.css";</style>
+
+<script type='text/javascript' src='localizedStrings.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/button/genericButton.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleScrollArea.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleScrollbar.js' charset='utf-8'/>
+
+<script type='text/javascript' src='Scripts/togglebutton.js' charset='utf-8'/>
+<script type='text/javascript' src='Scripts/fadebutton.js' charset='utf-8'/>
+<script type='text/javascript' src='Scripts/keychain.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/tags.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/storage.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/network.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/request.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/fader.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/pref.js' charset="utf-8" />
+<script type='text/javascript' src='Scripts/mixi.js' charset="utf-8" />
+
+<head>
+</head>
+
+<body onload="setup();">
+
+<div id="FrontWindow">
+	<div id="flip" class="flip"></div>
+	<div id="fliprollie" class="flip"></div> 
+	<div id="uparrow" class="uparrow"></div>
+	<div id="downarrow" class="downarrow"></div> 
+	<div id="contextclip"><div id="context"></div></div>
+	<div id="status"></div>
+    <div id="category"></div>
+    <div id="scrollbar"></div>
+</div>
+
+<div id="BacksideWindow">
+<div id="maillabel" class="backlabel">e-mail</div>
+<input id="mail" size="20" onchange="textChanged('mail');"/>
+
+<div id="passwordlabel" class="backlabel">password</div>
+<input id="password" type="password" size="20" onchange="textChanged('password');"/>
+
+<input id="viahttps" name="viahttps" type="checkbox" onchange="checkboxChanged('viahttps');"/>
+<label id="httpslabel" for="viahttps" class="backlabel" onclick="checkboxChanged('viahttps');">Login via https</label>
+
+<br />
+<span id="intervallabel" class="backlabel">Auto reload</span>
+<select id="interval" onchange="setRenewInterval(this.value);">
+</select>
+
+<div id='done'></div>
+</div>
+
+</body>
+
+</html>

@@ -13,3 +13,12 @@ results
 
 node_modules
 npm-debug.log
+
+.DS_Store
+._*
+*~
+*.widgetplugin
+*.pbxuser
+*.mode1v3
+*.xcworkspace
+xcuserdata

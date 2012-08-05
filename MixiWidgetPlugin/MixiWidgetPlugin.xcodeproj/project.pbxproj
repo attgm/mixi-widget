@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB568F015CE6BFD0040D87D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB568EF15CE6BFD0040D87D /* Cocoa.framework */; };
+		0DB568FA15CE6BFD0040D87D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DB568F815CE6BFD0040D87D /* InfoPlist.strings */; };
+		0DB5690615CE6C4A0040D87D /* MixiWidgetPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5690515CE6C4A0040D87D /* MixiWidgetPlugin.m */; };
+		0DB5690915CE6E150040D87D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB5690815CE6E150040D87D /* Security.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB568EC15CE6BFD0040D87D /* MixiWidgetPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixiWidgetPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB568EF15CE6BFD0040D87D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0DB568F215CE6BFD0040D87D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0DB568F315CE6BFD0040D87D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0DB568F415CE6BFD0040D87D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DB568F715CE6BFD0040D87D /* MixiWidgetPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixiWidgetPlugin-Info.plist"; sourceTree = "<group>"; };
+		0DB568F915CE6BFD0040D87D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DB568FB15CE6BFD0040D87D /* MixiWidgetPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixiWidgetPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		0DB5690415CE6C4A0040D87D /* MixiWidgetPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixiWidgetPlugin.h; sourceTree = "<group>"; };
+		0DB5690515CE6C4A0040D87D /* MixiWidgetPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixiWidgetPlugin.m; sourceTree = "<group>"; };
+		0DB5690815CE6E150040D87D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB568E915CE6BFD0040D87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB5690915CE6E150040D87D /* Security.framework in Frameworks */,
+				0DB568F015CE6BFD0040D87D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB568E115CE6BFD0040D87D = {
+			isa = PBXGroup;
+			children = (
+				0DB568F515CE6BFD0040D87D /* MixiWidgetPlugin */,
+				0DB568EE15CE6BFD0040D87D /* Frameworks */,
+				0DB568ED15CE6BFD0040D87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB568ED15CE6BFD0040D87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB568EC15CE6BFD0040D87D /* MixiWidgetPlugin.widgetplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB568EE15CE6BFD0040D87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB568EF15CE6BFD0040D87D /* Cocoa.framework */,
+				0DB568F115CE6BFD0040D87D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DB568F115CE6BFD0040D87D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5690815CE6E150040D87D /* Security.framework */,
+				0DB568F215CE6BFD0040D87D /* AppKit.framework */,
+				0DB568F315CE6BFD0040D87D /* CoreData.framework */,
+				0DB568F415CE6BFD0040D87D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0DB568F515CE6BFD0040D87D /* MixiWidgetPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5690415CE6C4A0040D87D /* MixiWidgetPlugin.h */,
+				0DB5690515CE6C4A0040D87D /* MixiWidgetPlugin.m */,
+				0DB568F615CE6BFD0040D87D /* Supporting Files */,
+			);
+			path = MixiWidgetPlugin;
+			sourceTree = "<group>";
+		};
+		0DB568F615CE6BFD0040D87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DB568F715CE6BFD0040D87D /* MixiWidgetPlugin-Info.plist */,
+				0DB568F815CE6BFD0040D87D /* InfoPlist.strings */,
+				0DB568FB15CE6BFD0040D87D /* MixiWidgetPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB568EB15CE6BFD0040D87D /* MixiWidgetPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB568FE15CE6BFD0040D87D /* Build configuration list for PBXNativeTarget "MixiWidgetPlugin" */;
+			buildPhases = (
+				0DB568E815CE6BFD0040D87D /* Sources */,
+				0DB568E915CE6BFD0040D87D /* Frameworks */,
+				0DB568EA15CE6BFD0040D87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixiWidgetPlugin;
+			productName = MixiWidgetPlugin;
+			productReference = 0DB568EC15CE6BFD0040D87D /* MixiWidgetPlugin.widgetplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB568E315CE6BFD0040D87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Atsushi Tagami";
+			};
+			buildConfigurationList = 0DB568E615CE6BFD0040D87D /* Build configuration list for PBXProject "MixiWidgetPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DB568E115CE6BFD0040D87D;
+			productRefGroup = 0DB568ED15CE6BFD0040D87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB568EB15CE6BFD0040D87D /* MixiWidgetPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB568EA15CE6BFD0040D87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB568FA15CE6BFD0040D87D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB568E815CE6BFD0040D87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB5690615CE6C4A0040D87D /* MixiWidgetPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DB568F815CE6BFD0040D87D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB568F915CE6BFD0040D87D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DB568FC15CE6BFD0040D87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		0DB568FD15CE6BFD0040D87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		0DB568FF15CE6BFD0040D87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixiWidgetPlugin/MixiWidgetPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MixiWidgetPlugin/MixiWidgetPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = widgetplugin;
+			};
+			name = Debug;
+		};
+		0DB5690015CE6BFD0040D87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixiWidgetPlugin/MixiWidgetPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MixiWidgetPlugin/MixiWidgetPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = widgetplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB568E615CE6BFD0040D87D /* Build configuration list for PBXProject "MixiWidgetPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB568FC15CE6BFD0040D87D /* Debug */,
+				0DB568FD15CE6BFD0040D87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB568FE15CE6BFD0040D87D /* Build configuration list for PBXNativeTarget "MixiWidgetPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB568FF15CE6BFD0040D87D /* Debug */,
+				0DB5690015CE6BFD0040D87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB568E315CE6BFD0040D87D /* Project object */;
+}

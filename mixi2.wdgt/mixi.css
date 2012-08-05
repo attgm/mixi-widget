@@ -1,0 +1,41 @@
+@charset "utf-8";body {	margin: 0px;	padding: 0px;}#FrontWindow {	position: absolute;	top: 0px;	left: 0px;	display: block;	width: 360px;	height: 200px;	background-image: url("default.png");}#status {	position: absolute;	bottom: 32px;	right: 32px;	width: 86px;	font: 9px "Helvetica Neue", sans-serif;	color: #666;
+    text-align: right;}/* 360 - 22 - 32  = 306   200 - 18 - 62  = 120 */
+#contextclip {	position: absolute;	top: 18px;	left: 22px;	right: 32px;	bottom: 42px;	overflow: hidden;
+}#context{	position: relative;	top: 0px;	left: 0px;	right: 0px;	font: 12px "Helvetica Neue", sans-serif;	line-height: 16px;	color: black;}
+
+#scrollbar {
+    position:absolute;
+    top: 18px;
+	right: 12px;
+	bottom: 42px;
+    width: 19px;
+}
+
+.diaryEntry{	margin-bottom: 1px;}.diaryTitle {	width: 170px;	overflow: hidden;	text-overflow: ellipsis;	white-space: nowrap;	text-aligin: left;	display: inline-block;	font: 12px "Helvetica Neue", sans-serif;	color: black;}.diaryTitle a { color: black; text-decoration: none;}.diaryTitle a:hover { color: #333388;  text-decoration: underline; 
+    cursor: pointer;}.diaryName {	width: 72px;	overflow: hidden;	text-overflow: ellipsis;	white-space: nowrap;	text-aligin: left;	display: inline-block;	font: 9px "Helvetica Neue", sans-serif;	color: black;}.diaryName a { color: black; text-decoration: none;}.diaryName a:hover { color: #338833;  text-decoration: underline; }.diaryDate {	width: 64px;	overflow: hidden;	text-overflow: ellipsis;	white-space: nowrap;	text-aligin: right;	display: inline-block;	font: 9px "Helvetica Neue", sans-serif;	color: #933;}.flip {	position:absolute;	bottom: 16px;	right: 19px;	width:13px;	height:13px;
+    cursor: pointer;}#flip {	//opacity:1.00;	background: url(file:///System/Library/WidgetResources/ibutton/black_i.png) no-repeat top left;	z-index:8000;}#fliprollie {	display:none;	opacity:0.25;	background: url(file:///System/Library/WidgetResources/ibutton/black_rollie.png) no-repeat top left;	z-index:7999;}.flipCircle {	position:absolute;	top: 0px;	left: 0pc;	width: 13px;	height: 13px;	background: url(file:///System/Library/WidgetResources/ibutton/black_rollie.png) no-repeat top left;	display:none;	opacity:0.25;}
+
+#category {
+	position:absolute;
+	left: 22px;
+	bottom: 13px;
+	right: 28px;
+	height:17px;
+}
+
+.toggleButton {
+	float: left;
+	width: 24px;
+	height: 17px;
+    cursor: pointer;
+}
+
+.toggleLabel {
+	top: 0px;	left: 0pc;	width: 24px;	height: 17px;}
+
+.labelIcom {
+    width: 16px;
+    height: 8px;
+    vertical-align: bottom;
+}
+/* 360 - 12 -12 = 336    200 - 8 -17 = 175 */#BacksideWindow {	position: absolute;	top: 0px;	left: 0px;	width: 336px;	height: 175px;	background-image: url("Images/backside.png");	padding: 12px 8px 12px 17px;	display: none;}#done {	position: absolute;	right: 30px;	bottom: 30px;}.backlabel {	font: 12px "Helvetica Neue", sans-serif;	color: white;}
