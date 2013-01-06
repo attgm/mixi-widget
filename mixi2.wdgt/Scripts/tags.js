@@ -51,7 +51,7 @@ var VC_NICK_BEGIN = 'name="nickname" value="';
 var VC_NICK_END = '"';
 var VC_DATE_BEGIN = 'name="post_time" value="';
 var VC_DATE_END = '"';
-var VC_SUBJECT_BEGIN = '<div class="voiced">\n<p>';
+var VC_SUBJECT_BEGIN = '<div class="voiced"><p>';
 var VC_SUBJECT_END = '<span>';
 var VC_UID_BEGIN = 'name="member_id" value="';
 var VC_UID_END = '"';
